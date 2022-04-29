@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4ABC61281C609300A3E2FC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4ABC60281C609300A3E2FC /* Game.swift */; };
 		BAC9F66C281B13A100CEE366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F66B281B13A100CEE366 /* AppDelegate.swift */; };
 		BAC9F66E281B13A100CEE366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F66D281B13A100CEE366 /* SceneDelegate.swift */; };
 		BAC9F670281B13A100CEE366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F66F281B13A100CEE366 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA4ABC60281C609300A3E2FC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		BAC9F668281B13A100CEE366 /* ApplePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC9F66B281B13A100CEE366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAC9F66D281B13A100CEE366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		BAC9F65F281B13A100CEE366 = {
 			isa = PBXGroup;
 			children = (
+				BA4ABC60281C609300A3E2FC /* Game.swift */,
 				BAC9F66A281B13A100CEE366 /* ApplePie */,
 				BAC9F669281B13A100CEE366 /* Products */,
 			);
@@ -141,6 +144,7 @@
 				BAC9F670281B13A100CEE366 /* ViewController.swift in Sources */,
 				BAC9F66C281B13A100CEE366 /* AppDelegate.swift in Sources */,
 				BAC9F66E281B13A100CEE366 /* SceneDelegate.swift in Sources */,
+				BA4ABC61281C609300A3E2FC /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
